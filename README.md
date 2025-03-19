@@ -1,5 +1,12 @@
 # Xodon Tools
 
+██   ██  ██████  ██████   ██████  ███    ██     ████████  ██████   ██████  ██      ███████ 
+ ██ ██  ██    ██ ██   ██ ██    ██ ████   ██        ██    ██    ██ ██    ██ ██      ██      
+  ███   ██    ██ ██   ██ ██    ██ ██ ██  ██        ██    ██    ██ ██    ██ ██      ███████ 
+ ██ ██  ██    ██ ██   ██ ██    ██ ██  ██ ██        ██    ██    ██ ██    ██ ██           ██ 
+██   ██  ██████  ██████   ██████  ██   ████        ██     ██████   ██████  ███████ ███████ 
+                                                                                           
+                                                                                           
 **Xodon Tools - A bridging utility for seamless transmission between X and Mastodon**
 
 Xodon Tools is a Python-based utility that bridges your X (Twitter) and Mastodon accounts. It automatically mirrors your X posts to Mastodon and syncs your X following list by searching for and following those users on Mastodon. Designed for users who want to maintain a presence across both platforms without manual effort, Xodon Tools simplifies cross-platform engagement.
@@ -119,9 +126,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Built with [Tweepy](https://github.com/tweepy/tweepy) for X API integration.
 - Uses [Mastodon API](https://docs.joinmastodon.org/api/) for Mastodon interactions.
-
-- Add a `LICENSE` file to your repo (e.g., MIT License text) if you choose to include licensing.
-- The `.env` setup is recommended for security; the README assumes you’ll update the code accordingly.
-- This README is structured for clarity and appeal on GitHub, with Markdown formatting.
-
-Let me know if you’d like to adjust any section or add more details!
