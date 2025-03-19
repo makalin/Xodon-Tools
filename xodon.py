@@ -22,10 +22,7 @@ mastodon_headers = {
     "Authorization": f"Bearer {MASTODON_TOKEN}"
 }
 
-# --- Global Variables ---
 last_tweet_id = None  # To track the latest tweeted post
-
-# --- Functions ---
 
 def get_latest_tweet(username):
     """Fetch the most recent tweet from the user."""
@@ -108,7 +105,6 @@ def sync_following(x_username):
             print(f"Could not find {user['username']} on Mastodon")
         time.sleep(1)  # Avoid rate limits
 
-# --- Main App Logic ---
 
 def xodon_tools_app(x_username, poll_interval=60):
     """Main function for Xodon Tools app."""
@@ -129,8 +125,8 @@ def xodon_tools_app(x_username, poll_interval=60):
             print(f"No new tweets at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         time.sleep(poll_interval)  # Wait before checking again
 
-# --- Run the App ---
 if __name__ == "__main__":
     x_username = input("Enter your X username (without @): ")
     poll_interval = int(input("Enter polling interval in seconds (e.g., 60): "))
     xodon_tools_app(x_username, poll_interval)
+    
