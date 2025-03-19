@@ -1,12 +1,5 @@
 # Xodon Tools
 
-██   ██  ██████  ██████   ██████  ███    ██     ████████  ██████   ██████  ██      ███████ 
- ██ ██  ██    ██ ██   ██ ██    ██ ████   ██        ██    ██    ██ ██    ██ ██      ██      
-  ███   ██    ██ ██   ██ ██    ██ ██ ██  ██        ██    ██    ██ ██    ██ ██      ███████ 
- ██ ██  ██    ██ ██   ██ ██    ██ ██  ██ ██        ██    ██    ██ ██    ██ ██           ██ 
-██   ██  ██████  ██████   ██████  ██   ████        ██     ██████   ██████  ███████ ███████ 
-                                                                                           
-                                                                                           
 **Xodon Tools - A bridging utility for seamless transmission between X and Mastodon**
 
 Xodon Tools is a Python-based utility that bridges your X (Twitter) and Mastodon accounts. It automatically mirrors your X posts to Mastodon and syncs your X following list by searching for and following those users on Mastodon. Designed for users who want to maintain a presence across both platforms without manual effort, Xodon Tools simplifies cross-platform engagement.
